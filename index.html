@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right, #0b0b0b, #2a222f);
+            color: white;
+        }
+        h1 {
+            padding: 0px;
+            margin: 0px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        /* .caixa {
+           
+        } */
+        fieldset {
+            border-radius: 10px;
+            background: #9d148d18;
+            width: 10vw;
+        }
+        main {
+            width: 40vw;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        hr {
+            width: 40vw;
+        }
+        /* ul {
+            display: flex;
+            justify-content: center;
+        } */
+        .cont {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .contei {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 50vw;
+        }
+        .sobmim {
+            width: 40vw;
+        }
+        @media (max-width: 690px) {
+            body {
+                background: red;
+            }
+            main {
+                width: 100vw;
+            }
+            .sobmim {
+                width: 70vw;
+            }
+            .contei {
+                width: 100vw;
+            }
+        }
+    </style>
+</head>
+ 
+<body>
+    <main>
+        <hr>
+        <h1>Portifólio</h1>
+        <hr style="width: 35vw">
+        <br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw2iNcZZa9e3aM42WGtjh0PkCYHRFjM9Zlgw&s" style="border-radius: 50%;">
+        <br><br>
+        <section>
+            <fieldset class="sobmim">
+                <legend>
+                    <h1>Sobre mim</h1>
+                </legend>    
+                <div class="caixa">
+                <p>Me chamo Bruna, tenho 16 anos e atualmente estou cursando o segundo ano do ensino médio em paralelo com
+                    o curso voucher desenvolvedor do senac hub academy</p>
+                </div>
+            </fieldset>    
+        </section>
+        <br><br>
+        <hr>
+        <h1>Técnologias</h1>
+        <hr style="width: 35vw">
+        <br>
+        <div class="cont">
+            <section>
+                <fieldset>
+                    <legend>
+                        <h1>Frontend</h1>
+                    </legend>
+                    <div class="caixa">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                </fieldset>
+            </section>
+            <br><br>
+            <section>
+                <fieldset>
+                    <legend>
+                        <h1>Backend</h1>
+                    </legend>
+                    <ul>
+                        <li>
+                            Python
+                        </li>
+                        <li>
+                            Portugol
+                        </li>
+                    </ul>
+                </fieldset>
+            </section>
+            <br><br>
+            <section>
+                <fieldset>
+                    <legend>
+                        <h1>Outros</h1>
+                    </legend>
+                    <ul>
+                        <li>
+                            MySQL
+                        </li>
+                        <br>
+                    </ul>
+                </fieldset>
+            </section>
+        </div>
+        <br><br>
+        <hr>
+        <h1>Contato</h1>
+        <hr style="width: 35vw">
+        <br><br>
+        <div class="contei">
+            <section>
+                <fieldset>
+                    <legend>
+                        <h1>Linkedin</h1>
+                    </legend>
+                    <br>
+                    <a href="https://www.linkedin.com/in/bruna-cavalheiro-borges-21b5942ab/" style="color: lightgreen" target="_blank">Ir ao perfil</a>
+                    <br><br>
+                </fieldset>
+            </section>
+            <section>
+                <fieldset style="height: 80px;">
+                    <legend>
+                        <h1>Whatsapp</h1>
+                    </legend>
+                   
+                    <p>(67) 9923-2384</p>
+                   
+                </fieldset>
+            </section>  
+            <section>
+                <fieldset style="height: 80px;">
+                    <legend>
+                        <h1>E-mail</h1>
+                    </legend>
+                   
+                    <p>brunaaacb@gmail.com</p>
+                   
+                </fieldset>
+            </section>
+            <section>
+                <fieldset>
+                    <legend>
+                        <h1>GitHub</h1>
+                    </legend>
+                    <br>
+                    <a href="https://github.com/BrunaBorgs/Bruna/blob/main/index.html" style="color: lightgreen" target="_blank">Ir ao perfil</a>
+                    <br><br>
+                </fieldset>
+            </section>
+        </div>    
+    </main>
+</body>
+ 
+</html>
